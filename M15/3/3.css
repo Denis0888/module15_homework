@@ -1,0 +1,82 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+.wrapper {
+   width: 500px;
+   height: auto;
+   padding: 10px;
+   box-shadow: 5px 5px 5px 5px rgb(134, 134, 134);
+   margin: 100px auto;
+}
+
+.form-chat {
+   display: flex;
+   justify-content: space-between;
+}
+
+.form-input {
+   border: 3px solid #487bc8;
+   border-radius: 5px;
+   padding: 7px 5px;
+   width: 80%;
+   margin-right: 10px;
+   outline: none;
+
+}
+
+.form-input:focus {
+   border: 3px solid #12c2ce;
+}
+
+.form-btn {
+   border: none;
+   border-radius: 5px;
+   background-color: #487bc8;
+   padding: 0px 5px;
+   width: 30%;
+   cursor: pointer;
+}
+
+.btn-geo {
+   margin-left: 6px;
+}
+
+.form-btn:hover {
+   background-color: #12c2ce;
+}
+
+.wrapper-chat {
+   overflow: auto;
+   border: 3px solid #487bc8;
+   border-radius: 7px;
+   padding: 15px;
+   margin-top: 12px;
+   height: 400px;
+}
+
+.messages {
+   display: flex;
+   flex-flow: column wrap;
+
+}
+
+.message {
+   border: 3px solid #487bc8;
+   border-radius: 6px;
+   padding: 10px;
+   margin-bottom: 7px;
+   align-self: flex-end;
+}
+
+a {
+   cursor: pointer;
+   color: rgb(187, 34, 34);
+   text-decoration: none
+}
+
+a:hover {
+   color: #12c2ce;
+}
